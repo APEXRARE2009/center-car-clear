@@ -1,0 +1,49 @@
+@media (max-width:960px) {
+	.container {
+		max-width: 898px;
+	}
+
+	.header__content-wrap {
+		max-width: 186px;
+		min-width: 81px;
+	}
+
+	.header__content-contakt-location {
+		display: none;
+	}
+
+	.hero {
+		padding: 22% 0 0 0;
+	}
+
+	.hero__content-information {
+		padding: 0 0 0 8%;
+	}
+
+	.hero__content-information-title {
+		font-size: 42px;
+	}
+
+	.hero__content-information-title .hero {
+		margin: 0 0 18px 0;
+	}
+
+	.hero__content-information-subtitle {
+		font-size: 22px;
+		margin: 0 0 70px 0;
+	}
+}
+
+@media (max-width:768px) {
+	.container {
+		max-width: 722px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.header__content-contakt {
+		display: none;
+	}
+}

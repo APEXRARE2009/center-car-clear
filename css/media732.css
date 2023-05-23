@@ -1,0 +1,231 @@
+@media (max-width:732px) {
+	.hero__advantege {
+		flex: 0 1 56px;
+		padding: 17px 0 17px 17px;
+	}
+
+	.hero__content-advantege-item {
+		min-height: 56px;
+		min-width: 90%;
+		column-gap: 28px;
+		flex-direction: row;
+		justify-content: flex-start;
+		padding: 0 0 0 17px;
+		background: white;
+	}
+
+	.hero__content-advanteges {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 15px 0;
+		padding: 0 0 50px 0;
+	}
+
+	.hero__content-advantege-text {
+		font-size: 14px;
+		line-height: 16px;
+		text-align: left;
+		color: black;
+	}
+
+	.hero__content-advantege-wrap svg path {
+		fill: black;
+	}
+}
+
+@media (max-width:645px) {
+	.hero__content-advanteges {
+		flex-direction: column;
+		justify-content: center;
+		gap: 15px 0;
+		padding: 10px 0 50px 0;
+	}
+}
+
+@media (max-width:580px) {
+	.hero__content-advanteges {
+		flex-direction: column;
+		justify-content: center;
+		gap: 15px 0;
+		padding: 20px 0 50px 0;
+	}
+}
+
+@media (max-width:520px) {
+	.hero__content-advanteges {
+		flex-direction: column;
+		justify-content: center;
+		gap: 15px 0;
+		padding: 5px 0 50px 0;
+	}
+}
+
+@media (max-width:410px) {
+	.hero__content-advanteges {
+		flex-direction: column;
+		justify-content: center;
+		gap: 15px 0;
+		padding: 5px 0 50px 0;
+	}
+}
+
+@media (max-width:732px) {
+	.review {
+		background: url(../img/bg/bg-review.png) no-repeat 50% 45%/cover;
+		padding: 40px 0 50px 0;
+	}
+
+	.review__content {
+		display: flex;
+		flex-direction: column;
+		gap: 30px 0;
+	}
+
+	.review__content-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px 0;
+	}
+
+	.review__content-text-title {
+	}
+
+	.review__content-text-subtitle {
+		color: white;
+	}
+
+	.review__content-block-client {
+		display: flex;
+		column-gap: 14px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.review__content-client:nth-child(1) {
+		display: none;
+	}
+
+	.review__content-block-client:before {
+		content: url(../img/icons/review-left.svg);
+		cursor: pointer;
+	}
+
+	.review__content-block-client:after {
+		content: url(../img/icons/review-right.svg);
+		cursor: pointer;
+	}
+
+	.review__content-client {
+		background: white;
+		display: flex;
+		flex-direction: column;
+		gap: 2.5px 0;
+		padding: 14px 62px 14px 42px;
+		min-width: 320px;
+		min-height: 100px;
+		border-radius: 10px;
+	}
+
+	.review__content-client-profile {
+		display: flex;
+		column-gap: 10px;
+		align-items: center;
+		margin: 0 0 5px 0;
+	}
+
+	.review__content-client-wrap {
+		width: 22px;
+		height: 22px;
+		border-radius: 100%;
+		overflow: hidden;
+	}
+
+	.review__content-client-wrap-avatar {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.review__content-client-info {
+		display: flex;
+		flex-direction: column;
+		gap: 2px 0;
+	}
+
+	.review__content-client-info-name {
+		text-transform: capitalize;
+		font-weight: 700;
+		font-size: 10px;
+	}
+
+	.review__content-client-info-level {
+		text-transform: capitalize;
+		font-size: 9.5px;
+		color: rgba(0, 0, 0, .6);
+	}
+
+	.review__content-client-grade {
+		display: flex;
+		align-items: center;
+		column-gap: 6px;
+	}
+
+	.review__content-grade-wrap {
+		display: flex;
+		column-gap: 1px;
+	}
+
+	.review__content-grade-wrap svg {
+		width: 8.5px;
+		height: 8.5px;
+	}
+
+	.review__content-grade-wrap svg path {
+		fill: orange;
+	}
+
+	.review__content-client-grade-data {
+		font-size: 9.5px;
+		color: rgba(0, 0, 0, .6);
+	}
+
+	.review__content-client-text {
+		font-size: 9.5px;
+	}
+
+	.review__content-client-like-wrap {
+		display: flex;
+		column-gap: 21px;
+		margin: 6px 0 0 0;
+		position: relative;
+	}
+
+	.review__content-client-like-wrap svg {
+		width: 8px;
+		height: 8px;
+	}
+
+	.review__content-client-like-wrap:before {
+		content: '3';
+		position: absolute;
+		font-size: 8px;
+		left: 12px;
+		top: 2px;
+	}
+}
+
+@media (max-width:540px) {
+	.benefit__content-info-item {
+		width: 30%;
+		gap: 11px 0;
+		height: 160px;
+		padding: 15px 10px 25px;
+	}
+
+	.benefit__content-info-item:nth-child(4) {
+		padding: 15px 10px 0px;
+	}
+}
